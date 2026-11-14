@@ -41,3 +41,81 @@ body:before{background-image:linear-gradient(rgba(56,88,130,.035) 1px,transparen
 .footer p,.footer-inner>span{color:#64748b}
 .back-top{border-color:rgba(57,83,119,.2)}
 @media(max-width:700px){.nav-links{background:rgba(248,250,254,.98);border-bottom-color:rgba(57,83,119,.14)}.nav-links>a{border-bottom-color:rgba(57,83,119,.08)}.menu-toggle span{background:#29415f}}
+
+
+/* Refined warm-light portfolio palette */
+:root{
+  --bg:#f7f7f2;
+  --panel:#ffffff;
+  --panel-2:#eef1e9;
+  --text:#25332f;
+  --muted:#68766f;
+  --blue:#557b68;
+  --cyan:#a06f4e;
+  --line:rgba(49,70,59,.14);
+}
+body{background:#f7f7f2;color:#25332f}
+body:before{background-image:linear-gradient(rgba(49,70,59,.025) 1px,transparent 1px),linear-gradient(90deg,rgba(49,70,59,.025) 1px,transparent 1px);background-size:64px 64px}
+.ambient-one{background:#a9c3ad;opacity:.12}
+.ambient-two{background:#d9bda5;opacity:.10}
+.site-header{background:rgba(250,250,246,.92);border-bottom:1px solid rgba(49,70,59,.12)}
+.brand-mark{background:#e8eee7;border:1px solid #c8d6ca;color:#355544}
+.brand-mark span,.brand-name span{color:#a06f4e}
+.brand-name{color:#253b32}
+.nav-links>a{color:#68766f}
+.nav-links>a:hover,.nav-links>a.active{color:#25332f}
+.nav-links .nav-contact{color:#355544;border-color:#cbd6cd}
+.nav-contact span{color:#a06f4e}
+.menu-toggle span{background:#355544}
+.eyebrow,.section-index,.info-label,.note-kicker,.project-type,.edu-period,.quote-credit,.art-caption,.visual-label{color:#557b68}
+.status-dot{background:#6c987a;box-shadow:0 0 9px rgba(108,152,122,.35)}
+.hero-intro,.role-line,.hero-description,.social-links,.scroll-cue{color:#68766f}
+.typed-role{color:#355044}
+.gradient-text{background:linear-gradient(105deg,#355544 8%,#648b70 58%,#a06f4e 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.cursor,.social-links a span{color:#a06f4e}
+.button-primary{background:#557b68;box-shadow:0 7px 18px rgba(67,103,79,.14)}
+.button-primary:hover{background:#456a58;box-shadow:0 10px 24px rgba(67,103,79,.2)}
+.button-secondary{color:#355044;border-color:#cbd6cd}
+.button-secondary:hover{border-color:#8aa894}
+.orbit{border-color:rgba(85,123,104,.2)}
+.orbit-c{border-color:rgba(160,111,78,.18)}
+.monogram{background:radial-gradient(circle at 38% 30%,#fff,#e8eee7 72%);border:1px solid #cbd8cd;color:#355544;box-shadow:0 12px 45px rgba(65,94,72,.1),inset 0 0 25px rgba(85,123,104,.06)}
+.monogram span:last-of-type{color:#a06f4e}
+.monogram small{color:#75847a}
+.orbit-dot{background:#a06f4e;box-shadow:0 0 12px rgba(160,111,78,.3)}
+.dot-b{background:#668b72;box-shadow:0 0 12px rgba(102,139,114,.3)}
+.floating-note,.info-card,.quote-card,.skill-card{background:#fff;border:1px solid rgba(49,70,59,.12);box-shadow:0 8px 26px rgba(44,61,49,.045)}
+.floating-note{color:#68766f}
+.note-symbol,.quote-mark,.skill-icon,.note-arrow,.footnote-mark{color:#a06f4e}
+.info-card strong,.quote-card p,.skill-card h3,.project-content h3,.community-card h3,.edu-content h3{color:#2d4036}
+.about-main p,.skill-card p,.project-content>p,.community-card p,.contact-copy{color:#68766f}
+.about-main .lead{color:#40574a}
+.info-rule{background:#e4e9e2}
+.tags span{color:#566b5d;background:#f7f8f4;border:1px solid #e2e8e0}
+.skill-number,.edu-side{color:#8a968d}
+.skill-note{background:linear-gradient(145deg,#edf2eb,#f8f8f4)}
+.skill-card:hover,.project-feature:hover{border-color:#a8bdab}
+.project-feature,.education-card,.community-card{background:linear-gradient(120deg,#fff,#f0f3ed);border:1px solid rgba(49,70,59,.13);box-shadow:0 10px 28px rgba(44,61,49,.04)}
+.project-visual{background:radial-gradient(circle at 50% 45%,rgba(85,123,104,.13),transparent 68%),#edf1e9}
+.chess-grid{box-shadow:0 16px 36px rgba(43,62,49,.12)}
+.chess-grid span{color:#496b56;background:#e5ece3}
+.chess-grid span:nth-child(8n+1),.chess-grid span:nth-child(8n+3),.chess-grid span:nth-child(8n+6),.chess-grid span:nth-child(8n+8){background:#cbd9ca}
+.project-disclaimer{color:#7a877e!important;border-left-color:#a06f4e}
+.edu-symbol,.community-icon{background:#e8eee7;color:#557b68}
+.edu-content .edu-institution{color:#40574a}
+.edu-meta span{color:#557b68;border-color:#d6e0d5}
+.community-side{color:#a06f4e}
+.contact-panel{background:linear-gradient(125deg,#fff,#eff3ed);border:1px solid #dce5db;box-shadow:0 14px 36px rgba(44,61,49,.055)}
+.contact-panel:after{color:rgba(85,123,104,.035)}
+.contact-kicker{color:#a06f4e}
+.contact-social{color:#68766f}
+.contact-social a:hover{color:#557b68}
+.footer{border-top:1px solid #e1e7df}
+.footer p,.footer-inner>span{color:#68766f}
+.back-top{border-color:#d4ded4;color:#557b68}
+:focus-visible{outline-color:#a06f4e}
+@media(max-width:700px){
+  .nav-links{background:rgba(250,250,246,.99);border-bottom:1px solid #e1e7df}
+  .nav-links>a{border-bottom-color:#edf0ea}
+  .nav-links .nav-contact{color:#355044}
+}
