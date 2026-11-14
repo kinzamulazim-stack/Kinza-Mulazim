@@ -119,3 +119,25 @@ body:before{background-image:linear-gradient(rgba(49,70,59,.025) 1px,transparent
   .nav-links>a{border-bottom-color:#edf0ea}
   .nav-links .nav-contact{color:#355044}
 }
+
+
+/* Unified, minimal KM identity across header, hero and footer */
+.brand-wordmark{display:inline-flex;align-items:center;gap:7px;font-size:13px;font-weight:800;letter-spacing:2.1px;color:#355544;white-space:nowrap}
+.brand-wordmark span{font-weight:500;color:#8a968d;letter-spacing:1.5px}
+.brand{gap:0}
+.monogram{width:218px;height:218px;border-radius:30px;display:flex;align-items:center;justify-content:center;gap:13px;position:relative;background:linear-gradient(145deg,#ffffff,#edf2eb);border:1px solid #dce5db;box-shadow:0 18px 48px rgba(44,61,49,.08);font-size:88px;font-weight:800;letter-spacing:-8px;color:#355544}
+.monogram span:last-of-type{color:#a06f4e}
+.monogram .monogram-divider{width:1px;height:72px;background:#d5dfd4;display:block;letter-spacing:0}
+.monogram small{position:absolute;bottom:34px;font:8px var(--mono);letter-spacing:1.8px;color:#78877c}
+.orbit-a{width:340px;height:340px}
+.orbit-b{width:410px;height:205px}
+.orbit-c{width:265px;height:390px}
+.floating-note{border-radius:7px;padding:10px 13px}
+.art-caption{font-size:8px;letter-spacing:1.6px;color:#78877c}
+.footer .brand-wordmark{font-size:12px}
+@media(max-width:700px){
+ .brand-wordmark{font-size:12px;letter-spacing:1.7px}
+ .monogram{width:180px;height:180px;border-radius:24px;font-size:72px}
+ .monogram .monogram-divider{height:58px}
+ .monogram small{bottom:27px;font-size:7px}
+}
